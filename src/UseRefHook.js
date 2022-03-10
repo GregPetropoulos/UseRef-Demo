@@ -1,11 +1,19 @@
 import { useRef } from 'react';
 
-export const UseRefHook = () => {
+ export const UseRefHook = () => {
   const box = useRef();
 
   const onSubmit = (e) => {
     e.preventDefault();
-    console.log(box);
+    // console.log(box);
+    // console.log(box.current);
+    // console.log(box.current.value);
+
+    // Set the value directly and this doesn't cause a re-render
+    // When submitted change color of field and say Thank you
+    box.current.style.backgroundColor="dodgerblue"
+    box.current.value= 'Thank you'
+
   };
   return (
     <div className='container'>
@@ -17,5 +25,5 @@ export const UseRefHook = () => {
       </form>
     </div>
   );
-};
+}
 export default UseRefHook
