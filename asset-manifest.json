@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/UseRef-Demo/static/css/main.305c1012.css",
+    "main.js": "/UseRef-Demo/static/js/main.e1898dfd.js",
+    "index.html": "/UseRef-Demo/index.html",
+    "main.305c1012.css.map": "/UseRef-Demo/static/css/main.305c1012.css.map",
+    "main.e1898dfd.js.map": "/UseRef-Demo/static/js/main.e1898dfd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.305c1012.css",
+    "static/js/main.e1898dfd.js"
+  ]
+}
